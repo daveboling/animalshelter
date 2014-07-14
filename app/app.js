@@ -1,4 +1,5 @@
 /* global prompt:true */
+'use strict';
 var prompt = require('sync-prompt').prompt;
 
 var Dogs = [], Cats = [], Lizards = [];
@@ -49,7 +50,7 @@ while (menu !== 'q'){
 
 }
 
-console.log(Dogs);
-console.log(Cats);
-console.log(Lizards);
+console.log('Dogs: ', Dogs);
+console.log('Cats: ', Cats);
+console.log('Lizards: ', Lizards);
 
